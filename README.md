@@ -12,9 +12,12 @@ Before you start, you need to know whether you have to run Docker commands using
     * Test it works with `docker run hello-world`
 2. [Install fig](http://www.fig.sh/install.html).
     * Test it works with `fig --version`
+3. Put a PHP web application inside the webroot folder (e.g.: [Drupal](https://drupal.org/project/drupal)).
 
 # Usage
 
 1. From a terminal, run:
 
         fig up
+
+You can now run the PHP web application by visiting http://localhost/

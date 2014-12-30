@@ -1,0 +1,7 @@
+# MySQL.
+db:
+  image: stackbrew/mysql
+  ports:
+    - "3306:3006"
+  environment:
+    - MYSQL_ROOT_PASSWORD=root

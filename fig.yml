@@ -5,6 +5,9 @@ db:
     - "3306:3006"
   environment:
     - MYSQL_ROOT_PASSWORD=root
+    - MYSQL_USER=webapp
+    - MYSQL_PASSWORD=webapp
+    - MYSQL_DATABASE=webapp
 
 # Apache / PHP.
 http:

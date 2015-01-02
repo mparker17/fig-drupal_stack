@@ -11,7 +11,7 @@ db:
 
 # Apache / PHP.
 http:
-  image: "stackbrew/php:5.6-apache"
+  build: http
   ports:
     - "80:80"
   links:

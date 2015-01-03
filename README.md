@@ -13,6 +13,7 @@ Before you start, you need to know whether you have to run Docker commands using
 2. [Install fig](http://www.fig.sh/install.html).
     * Test it works with `fig --version`
 3. Put a PHP web application inside the webroot folder (e.g.: [Drupal](https://drupal.org/project/drupal)).
+    * If the web application requires write-access to a certain file or folder, you'll have to set permissions with `chmod g+w $path ; chown -R :33 $path`.
 
 # Usage
 

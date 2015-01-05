@@ -1,6 +1,6 @@
-# fig-amp_stack
+# fig-drupal_stack
 
-A fig configuration that sets up an Apache-PHP-MySQL stack using Docker.
+A fig configuration that sets up an Apache-PHP-MySQL stack with some additional Drupal containers.
 
 Note this is just a proof-of-concept. You very likely don't want to use this in a production environment.
 

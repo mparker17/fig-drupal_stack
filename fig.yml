@@ -8,6 +8,8 @@ db:
     - MYSQL_USER=webapp
     - MYSQL_PASSWORD=webapp
     - MYSQL_DATABASE=webapp
+  volumes:
+    - db:/var/lib/mysql
 
 # Apache / PHP.
 http:
